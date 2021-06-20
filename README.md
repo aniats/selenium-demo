@@ -15,5 +15,7 @@
 
 # Полезные ссылки
 
--   [Spectron docs](https://www.electronjs.org/spectron)
+-   [Spectron demo](https://www.electronjs.org/spectron)
 -   [Set up simple spectron test](https://www.electronjs.org/docs/tutorial/using-selenium-and-webdriver#setting-up-spectron)
+-   [Webdriver docs](https://webdriver.io/docs/api/)
+-   [Spectron github page](https://github.com/electron-userland/spectron#application-api)
