@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "types": ["node", "jest"],
+        "lib": ["es2015", "dom"]
+    }
+}

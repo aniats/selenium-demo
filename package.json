@@ -4,17 +4,21 @@
   "description": "A simple user behaviour test using Selenium.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "test": "tsc -p tsconfig.json && jest",
+    "start": "tsc -p tsconfig.json && electron .",
+    "compile_typescript": "tsc -p src/tsconfig.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "electron": "^13.1.2",
     "spectron": "^15.0.0"
   },
   "dependencies": {
     "electron-chromedriver": "^13.0.0",
-    "path": "^0.12.7"
+    "jest": "^27.0.4",
+    "path": "^0.12.7",
+    "ts-jest": "^27.0.3"
   }
 }
